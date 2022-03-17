@@ -8,7 +8,9 @@ Voyager es una aplicación web para viajes turísticos que conecta viajeros con 
 
 Para instalar el proyecto correr:
 
+`npm run dev`
 `npm run start`
+`npm run build`
 
 ## Como contribuir
 
