@@ -1,0 +1,21 @@
+.header_container{
+    width: -webkit-fill-available;
+    padding: 2rem 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_icon_container{
+    padding: 1rem 1rem .6rem;
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 50%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.header_icon{
+    fill: var(--color-two);
+    width: 1.5rem;
+    height: 1.5rem;
+}

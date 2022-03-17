@@ -9,9 +9,10 @@
     "start": "next start"
   },
   "keywords": [],
-  "author": "",
+  "author": "DevDuxAaron",
   "license": "ISC",
   "dependencies": {
+    "bootstrap-icons": "^1.8.1",
     "firebase": "^9.6.8",
     "next": "^12.1.0",
     "react": "^17.0.2",

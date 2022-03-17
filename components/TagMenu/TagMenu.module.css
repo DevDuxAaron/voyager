@@ -1,0 +1,11 @@
+.container{
+    padding: .1rem 0;
+    width: 102.5%;
+}
+.list{
+    overflow: auto;
+    white-space: nowrap;
+}
+.item {
+    display: inline-block;
+}

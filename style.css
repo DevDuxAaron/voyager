@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root{
+    --color-two: #807d83;
+    --color-three: #2b2830;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Neucha', cursive;
+    overflow-x: hidden;
+}
+ul {
+    list-style: none;
+}
+a {
+    color: var(--color-three);
+    text-decoration: none;
+    cursor: pointer;
+}
+body{
+    background: #fafafa;
+}
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.section{
+    position: relative;
+    padding:  1rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+}

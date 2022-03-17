@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+}
+.card {
+    margin: .8rem .5rem;
+    height: 40px;
+    width: 100px;
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  5px 5px 8px #a1a1a1,
+                -5px -5px 8px #ffffff;
+}
+input[type="radio"].input{
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    cursor: pointer;
+    outline: none;
+}
+.label{
+    width: 100%;
+    position: absolute;
+    top: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+input[type="radio"].input:checked{
+    border-radius: 10px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  5px 5px 8px #a1a1a1,
+                -5px -5px 8px #ffffff;
+}

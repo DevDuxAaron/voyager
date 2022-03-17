@@ -1,0 +1,45 @@
+.navigation {
+    width: -webkit-fill-available;
+    margin: 2rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    z-index: 30;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navigation ul .list {
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+.navigation ul .list a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+.navigation ul .list a .icon {
+    position: relative;
+    line-height: 70px;
+    transition: 0.5s;
+    margin-top: 5px;
+    width: 70px;
+    height: 60px;
+    overflow-y: hidden;
+    /* background-color: #288dfc; */
+    border-radius: 20px;
+}

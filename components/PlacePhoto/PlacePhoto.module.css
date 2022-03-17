@@ -1,0 +1,59 @@
+.photo_container {
+    padding: 1.5rem;
+    position: relative;
+    width: 80vw;
+    height: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background: url(../../public/lakeV.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 38px 1fr 20%;
+    gap: .5rem;
+    justify-items: center;
+    align-items: center;
+    z-index: 2;
+}
+.profile_photo {
+    position: relative;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px
+}
+.links{
+    justify-self: flex-start;
+}
+.background_image{
+    position: absolute;
+    z-index: -3;
+    border-radius: 20px;
+}
+.buttons{
+    background-color: #fafafa;
+    padding: 1rem;
+    border-radius: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.button_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    border: none;
+    background: transparent;
+}
+.btn+label{
+    margin-left: .2rem;
+}
