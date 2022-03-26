@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.places {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.place {
+    display: flex;
+}
+.place:nth-child(2){
+    margin-top: 1rem;
+}
+.icon {
+    margin-right: .5rem;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  5px 5px 8px #a1a1a1,
+                -5px -5px 8px #ffffff;
+    cursor: pointer;
+}
+.btn>.icon {
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-two);
+}
+
+.optionContainer {
+    width: 100%;
+}

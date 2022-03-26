@@ -19,7 +19,7 @@
     display: grid;
     grid-template-columns: 38px 1fr 20%;
     gap: .5rem;
-    justify-items: center;
+    justify-items: flex-end;
     align-items: center;
     z-index: 2;
 }
@@ -42,6 +42,7 @@
     padding: 1rem;
     border-radius: 20px;
     width: 60%;
+    max-width: 18rem;
     display: flex;
     justify-content: space-between;
 }
@@ -53,6 +54,7 @@
 .btn {
     border: none;
     background: transparent;
+    cursor: pointer;
 }
 .btn+label{
     margin-left: .2rem;

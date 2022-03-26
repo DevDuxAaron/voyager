@@ -1,0 +1,65 @@
+.header {
+    width: 100%;
+    max-width: 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+.stats {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.stat {
+    margin-left: 1rem;
+}
+.profile_photo {
+    position: relative;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px
+}
+.menuContainer {
+    width: 100%;
+    overflow: visible;
+}
+.menu {
+    width: 100%;
+    height: 100%;
+    max-width: 30rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: center;
+    overflow: visible;
+}
+.menuItem {
+    height: 100%;
+    overflow: visible;
+}
+button.btn{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.btn:active,
+.btn:hover {
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  5px 5px 8px #a1a1a1,
+                -5px -5px 8px #ffffff;
+}

@@ -1,0 +1,57 @@
+.box {
+    width: 100%;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    text-align: center;
+}
+.box .title {
+    color: #090909;
+}
+.social {
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+}
+.google {
+    width: fit-content;
+    padding: 1rem 1rem .6rem 1rem;
+    margin: .5rem;
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 50%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.google svg{
+    color: #4285f4;
+}
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #4285f4;
+}
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #4285f4;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 10px;
+    transition: .25s;
+}
+.box input[type="text"]:focus,
+.box input[type="password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}

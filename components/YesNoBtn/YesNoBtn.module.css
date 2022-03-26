@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+    overflow: visible;
+}
+.secondary,
+.primary {
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.primary {
+    background: #30cfd0;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(
+        to right,
+        rgba(48, 207, 208, 0.5),
+        rgba(51, 8, 103, 0.5)
+    );
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(
+        to right,
+        rgba(48, 207, 208, 0.5),
+        rgba(51, 8, 103, 0.5)
+    );
+    box-shadow:  5px 5px 8px #a1a1a1,
+                -5px -5px 8px #ffffff;
+}
+.primary h3 {
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+.secondary {
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  5px 5px 8px #a1a1a1,
+                -5px -5px 8px #ffffff;
+}

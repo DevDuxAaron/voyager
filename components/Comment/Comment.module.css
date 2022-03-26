@@ -1,0 +1,61 @@
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+.imageContainer {
+    padding: 1rem .5rem 0 1rem;
+}
+.imageLink{
+    display: block;
+    position: relative;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.image{
+    border-radius: 50%;
+}
+.body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.btnComment,
+.btnSeeMore{
+    padding: 1rem .5rem 0 .5rem;
+    background: none;
+    outline: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+.btnSeeMore{
+    display: flex;
+    padding: .5rem;
+}
+.buttonContainer {
+    padding-top: 1rem;
+    width: 100%;
+    height: 100%;
+}
+.btn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: none;
+    outline: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.replies{
+    transition: .25s ease-in-out;
+}

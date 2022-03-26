@@ -14,7 +14,7 @@ const Gallery = () => {
             <Image className={styles.image} src="/lakeV.jpg" alt="lake" layout='fill'/>
         </div>
         <div className={styles.aux}>
-            <Image className={styles.image} src="/lakeH.jpg" alt="lake" layout='fill'/>
+            <Image className={styles.image} src="/lake.jpg" alt="lake" layout='fill'/>
         </div>
         <div className={styles.aux}>
             <Image className={styles.image} src="/lakeV.jpg" alt="lake" layout='fill'/>
@@ -23,7 +23,7 @@ const Gallery = () => {
             <Image className={styles.image} src="/lakeH.jpg" alt="lake" layout='fill'/>
         </div>
         <div className={styles.aux}>
-            <Image className={styles.image} src="/lakeH.jpg" alt="lake" layout='fill'/>
+            <Image className={styles.image} src="/lake.jpg" alt="lake" layout='fill'/>
         </div>
         <div className={styles.aux}>
             <Image className={styles.image} src="/lakeH.jpg" alt="lake" layout='fill'/>

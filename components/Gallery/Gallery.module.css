@@ -2,7 +2,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-auto-rows: 20vh;
+    grid-auto-rows: 20vw;
     gap: 1rem;
 }
 .aux {

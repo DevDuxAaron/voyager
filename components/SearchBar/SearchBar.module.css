@@ -2,6 +2,7 @@
     position: relative;
     /* width: 40px; */
     width: 100%;
+    max-width: 40rem;
     height: 40px;
     background: #fff;
     border-radius: 40px;

@@ -35,10 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/calendar.js"
     ],
-    "/search": [
+    "/schedule-trip/[idPlace]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/search.js"
+      "static/chunks/pages/schedule-trip/[idPlace].js"
     ]
   },
   "ampFirstPages": []
