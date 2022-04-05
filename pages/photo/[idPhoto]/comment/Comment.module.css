@@ -1,24 +1,8 @@
-.containerHide {
-    position: fixed;
-    /* top: 100vh; */
-    top: 20vh;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #f5f5f5;
-    border-radius: 20px 20px 0 0;
-    z-index: 100;
-    transition: .5s;
-}
 .container {
-    position: fixed;
-    top: 100vh;
-    /* top: 20vh; */
-    left: 0;
-    right: 0;
-    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    padding:  0 2rem;
     background: #f5f5f5;
-    border-radius: 20px 20px 0 0;
     z-index: 100;
     transition: .5s;
 }
@@ -52,6 +36,7 @@
     height: 3rem;
 }
 .writeCommentContainer{
+    padding: 0 2rem;
     width: 100%;
     height: 3rem;
     position: fixed;
@@ -93,7 +78,7 @@
 .send{
     position: absolute;
     top: 50%;
-    right: 20px;
+    right: 3rem;
     transform: translateY(-50%);
     cursor: pointer;
     display: flex;

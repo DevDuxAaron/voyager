@@ -5,6 +5,33 @@ import { Reply } from '../Reply/Reply'
 
 import styles from './Comment.module.css'
 
+class CommentClass {
+    constructor (
+        id_user,
+        content,
+        creation_date,
+        id_comment,
+        id_photo,
+        last_activity_date,
+        mentions,
+        no_likes,
+        no_replies
+    ) {
+        this.id_user = id_user
+        this.content = content
+        this.creation_date = creation_date
+        this.id_comment = id_comment
+        this.id_photo = id_photo
+        this.last_activity_date = last_activity_date
+        this.mentions = mentions
+        this.no_likes = no_likes
+        this.no_replies = no_replies
+    }
+    toString() {
+        return "This is a cool comment" + this.id_user
+    }
+}
+
 const Comment = ({ userId, userImage, userName, commentId, content, noLikes, timePosted, replies }) => {
     const [open, setOpen] = useState(false)
     return (
@@ -94,4 +121,4 @@ const Comment = ({ userId, userImage, userName, commentId, content, noLikes, tim
     )
 }
 
-export { Comment }
+export { Comment, CommentClass }

@@ -1,71 +1,37 @@
 import React,{ useEffect } from 'react'
+import { enableIndexedDbPersistence } from 'firebase/firestore'
 import Menu from '../components/Menu/Menu'
 import Header from '../components/Header/Header'
-import PlacePhoto from '../components/PlacePhoto/PlacePhoto'
-import LoginModal from '../components/LoginModal/LoginModal'
+import { Photo } from '../components/Photo/Photo'
 import { MenuContext } from '../components/MenuContext/MenuContext'
-import { Comments } from '../components/Comments/Comments'
-
-// import { collection, getDocs } from 'firebase/firestore'
-// import { db } from '../firebase/firebase'
+import { getAllPhoto } from '../firebase/getAllPhoto'
+import { getPerson } from '../firebase/getAllPerson'
 
 const Home = () => {
   const { openComment, setMenuPosition} = React.useContext(MenuContext)
   setMenuPosition(0)
   // useEffect(() => {
-  //   const getData = async() => {
-  //     const datos = await getDocs(collection(db, 'VOYAGER'));
-  //     // console.log(datos.docs[0].data);
-  //     datos.forEach((documento) => {
-  //       console.log(documento.data);
-  //     })
-  //   }
-  //   getData()
+    // enableIndexedDbPersistence()
+    // getAllPhoto()
+    // getPerson()
   // },[])
   return (
       <div className='container'>
         <Header />
         <div className='section'>
-            <PlacePhoto
-              idPlace=""
-              user="Buck"
-              placeName="Copacabana"
-              ubication="La Paz, Bolivia"
-              price="25"
-              userImage="/userFemale.jpg"
-              placeImage=""
-              likes="2.4k"
-              comments="175"
+            <Photo
+              idPhoto="peeug4T6ebFngxLb0pKK"
             />
-            <PlacePhoto
-              idPlace=""
-              user="Buck"
-              placeName="Lago"
-              ubication="La Paz, Bolivia"
-              price="72"
-              userImage="/userMale.jpg"
-              placeImage=""
-              likes="56.4k"
-              comments="1k"
+            {/* <Photo
+              idPhoto="peeug4T6ebFngxLb0pKK"
             />
-            <PlacePhoto
-              idPlace=""
-              user="Buck"
-              placeName="Laguna"
-              ubication="Cochabamba, Bolivia"
-              price="98"
-              userImage="/userFemale2.jpg"
-              placeImage=""
-              likes="2k"
-              comments="235"
-            />
+            <Photo
+              idPhoto="peeug4T6ebFngxLb0pKK"
+            /> */}
             <Menu />
         </div>
-        <Comments noComments="175" id="3" userImage="/userFemale.jpg"/>
       </div>
   )
 }
-
-
 
 export default Home

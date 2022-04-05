@@ -15,11 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,15 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/calendar": [
+    "/photo/[idPhoto]/comment": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/calendar.js"
-    ],
-    "/schedule-trip/[idPlace]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/schedule-trip/[idPlace].js"
+      "static/chunks/pages/photo/[idPhoto]/comment.js"
     ]
   },
   "ampFirstPages": []

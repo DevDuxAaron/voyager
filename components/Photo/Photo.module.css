@@ -1,0 +1,87 @@
+.loading {
+    width: 80vw;
+    height: 80vw;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        to right,
+        #f6f7f8 0%,
+        #edeef1 10%,
+        #f6f7f8 20%,
+        #f6f7f8 100%
+        );
+    background-size: 200% 100%;
+    animation: bgPos 1s linear infinite;
+}
+@keyframes bgPos {
+    0% {
+        background-position: 50% 0;
+    }
+    100% {
+        background-position: -150% 0
+    }
+}
+.photo_container {
+    padding: 1.5rem;
+    position: relative;
+    width: 80vw;
+    height: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.mainImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 38px 1fr 20%;
+    gap: .5rem;
+    justify-items: flex-end;
+    align-items: center;
+    z-index: 2;
+}
+.profile_photo {
+    position: relative;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px
+}
+.links{
+    justify-self: flex-start;
+}
+.background_image{
+    position: absolute;
+    z-index: -3;
+    border-radius: 20px;
+}
+.buttons{
+    background-color: #fafafa;
+    padding: 1rem;
+    border-radius: 20px;
+    width: 60%;
+    max-width: 18rem;
+    display: flex;
+    justify-content: space-between;
+}
+.button_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* TODO: */
+.btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.btn+label{
+    margin-left: .2rem;
+}
